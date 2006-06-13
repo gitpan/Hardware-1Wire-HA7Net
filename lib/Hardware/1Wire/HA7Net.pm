@@ -5,9 +5,9 @@ use LWP::UserAgent;
 use strict;
 use vars qw($VERSION @ISA);
 
-$VERSION = '1.00';
+$VERSION = '1.01';
 @ISA = qw(Exporter);
-my ($RCSVERSION) = '$Revision: 1.6 $ ' =~ /\$Revision:\s+([^\s]+)/;
+my ($RCSVERSION) = '$Revision: 1.7 $ ' =~ /\$Revision:\s+([^\s]+)/;
 
 ##############################################################################
 package Hardware::1Wire::HA7Net::Generic;
